@@ -3,7 +3,7 @@
   "pathRules": [
     {
       "paths": ["examples/"],
-      "prTitle": "abcdefg"
+      "extends": ["semanticCommitTypeAll(chore)"]
     }
   ]
 }
