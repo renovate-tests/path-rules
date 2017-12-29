@@ -1,9 +1,6 @@
 {
-  "extends": ["config:base"],
-  "pathRules": [
-    {
-      "paths": ["examples/**"],
-      "extends": [":semanticCommitTypeAll(chore)"]
-    }
+  "extends": [
+    "config:base", 
+    ":pathSemanticCommitType(examples/**,chore)"
   ]
 }
