@@ -3,7 +3,7 @@
   "pathRules": [
     {
       "paths": ["examples/"],
-      "extends": ["semanticCommitTypeAll(chore)"]
+      "extends": [":semanticCommitTypeAll(chore)"]
     }
   ]
 }
