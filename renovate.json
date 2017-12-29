@@ -2,7 +2,7 @@
   "extends": ["config:base"],
   "pathRules": [
     {
-      "paths": ["examples/"],
+      "paths": ["examples/**"],
       "extends": [":semanticCommitTypeAll(chore)"]
     }
   ]
