@@ -1,3 +1,9 @@
 {
-  "extends": ["config:base"]
+  "extends": ["config:base"],
+  "pathRules": [
+    {
+      "paths": ["examples/"],
+      "prTitle": "abcdefg"
+    }
+  ]
 }
